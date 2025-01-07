@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judy's Personal Website</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #f0f8ff, #e6e6fa);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #ff7eb3, #ff758c);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        nav {
+            background: #ff758c;
+            padding: 0.5rem;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #ffd1dc;
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 900px;
+            margin: 2rem auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .section {
+            margin-bottom: 2.5rem;
+            line-height: 1.6;
+        }
+        .section h2 {
+            color: #ff758c;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        .section img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-top: 1rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 0.5rem;
+            padding-left: 1rem;
+            position: relative;
+        }
+        ul li:before {
+            content: '\2022';
+            color: #ff758c;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        footer {
+            background: linear-gradient(to right, #ff7eb3, #ff758c);
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+        button {
+            background: #ff758c;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+        button:hover {
+            background: #ff4f70;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Judy's Website</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Judy</h2>
+            <p>Hello! I'm Judy, a skilled graphic designer and brand strategist with over a decade of experience in creating visually stunning designs and impactful branding solutions. I specialize in helping businesses tell their stories through creative visuals and strategic design thinking. Passionate about innovation and collaboration, I bring a unique blend of artistry and problem-solving to every project I undertake.</p>
+            <img src="images/2.webp" alt="Judy's Portrait">
+        </section>
+
+        <section id="services" class="section">
+            <h2>Services</h2>
+            <ul>
+                <li>Logo Design: Crafting memorable and professional logos tailored to your brand's identity.</li>
+                <li>Brand Strategy: Developing cohesive brand strategies that align with your business goals.</li>
+                <li>Marketing Materials: Designing brochures, posters, and digital assets to elevate your marketing efforts.</li>
+                <li>Web Design: Creating user-friendly, visually appealing websites that capture your brand's essence.</li>
+            </ul>
+            <img src="images/3.jpg" alt="Service Illustration">
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact</h2>
+            <p>Feel free to reach out to me for any inquiries, collaborations, or project discussions. I would love to hear from you!</p>
+            <ul>
+                <li>Email: <a href="mailto:judy.designs@example.com">judy.designs@example.com</a></li>
+                <li>Phone: (555) 123-4567</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/judydesigns" target="_blank">linkedin.com/in/judydesigns</a></li>
+            </ul>
+            <img src="images/1.webp" alt="Contact Illustration">
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Judy's Design Studio. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
